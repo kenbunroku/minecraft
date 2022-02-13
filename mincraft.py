@@ -12,6 +12,9 @@ arm_texture = load_texture('assets/arm_texture.png')
 punch_sound = Audio('assets/punch_sound', loop=False, autoplay=False)
 block_pick = 1
 
+window.fps_counter.enabled = False
+window.exit_button.enabled = False
+
 
 def update():
     global block_pick
